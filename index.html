@@ -249,10 +249,47 @@
       </section>
     </div>
     <hr />
+
+    <!-- FORMULÁRIO DE CONTATO-->
     <div>
       <section id="contato">
         <h3>Contato</h3>
-        
+        <form action="pagina.php" method="post">
+          <label>
+            Nome
+            <input
+              type="text"
+              name="nome"
+              value=""
+              size="20px"
+              maxlenght="100"
+              placeholder="digite seu nome aqui"
+            />
+          </label>
+          <br /><br />
+          <label>
+            E-mail
+            <input
+              type="email"
+              name="email"
+              value=""
+              size="20px"
+              maxlenght="100"
+              placeholder="yourname@gmail.com"
+            />
+          </label>
+          <p>Mensagem</p>
+          <textarea
+            name="email"
+            value=""
+            size="20px"
+            maxlenght="200"
+            placeholder="sua mensagem aqui"
+          ></textarea>
+          <br /><br>
+          <input type="submit" />
+        </form>
+        <hr />
       </section>
     </div>
     <footer>© 2023 Receitas de Sobremesas</footer>
